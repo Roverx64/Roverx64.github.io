@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RoverOS</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript" src="../JS/sidebar.js"></script>
+</head>
+<body>
+    <button class="extend-list" onclick="listExtend()" id="sideBtn"><ion-icon name="caret-forward-outline"></ion-icon></button>
+    <script type="text/javascript" src="../JS/hexconversion.js"></script>
+    <div class="side-bar" id="sideBar">
+        <div class="side-container">
+            <a href="../../index.html"><img src="../Images/rover.jpg" alt="home"></a>
+            <ul class="list">
+                <li>
+                    <a href="./roveros.html"><ion-icon name="code"></ion-icon>
+                    <txt>RoverOS</txt></a>
+                </li>
+                <li>
+                    <a href="./polyedit.html"><ion-icon name="code"></ion-icon>
+                    <txt>Polyedit</txt></a>
+                </li>
+                <li>
+                    <a href="./tools.html"><ion-icon name="code"></ion-icon>
+                    <txt>Tools</txt></a>
+                </li>
+                <li>
+                    <a href="#"><ion-icon name="code"></ion-icon>
+                    <txt>Links</txt></a>
+                </li>
+            </ul>
+
+            <ul class="set-help">
+                <li>
+                    <a href="https://github.com/Roverx64" target="_blank" rel="noreferrer noopener">
+                        <img src="https://avatars.githubusercontent.com/u/111342077?v=4" alt="Roverx64">
+                        <txt>Roverx64</txt>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/tomosus" target="_blank" rel="noreferrer noopener">
+                        <img src="https://avatars.githubusercontent.com/u/67664316?v=4" alt="Rushia">
+                        <txt>Tom</txt>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Roverx64/RoverOS" target="_blank" rel="noreferrer noopener">
+                        <img src="../Images/git.png" alt="Roverx64">
+                        <txt>Github</txt>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="middle">
+        <h1 class="roveros">RoverOS</h1>
+        <div class="middle-container">
+            <p>
+                About RoverOS:<br>
+                RoverOS is a hobby OS intended for x64 UEFI platforms<br>
+                The name, and my username, derive from my dog named Rover.<br>
+                It is not intended to be named after my username.<br><br>
+
+                Future plans:<br>
+                * ARM64 support (I don't have an ARM device yet)<br>
+                * Custom FS with EXT4 support<br>
+                * Custom libc (not POSIX compliant)<br>
+                * Easy GUI library<br>
+                * Better debugging<br>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
